@@ -1,0 +1,16 @@
+.footer {
+padding: 2rem;
+}
+
+.footer p {
+  text-align: center;
+}
+
+#heart {
+  color: var(--red-500);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}

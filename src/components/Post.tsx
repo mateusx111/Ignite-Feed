@@ -71,7 +71,7 @@ export function Post({ author, publishedAt, content }: PostProps) {
     setComments(CommentsWithoutDeletedOnes);
   }
 
-  const isNewCommentempty = newCommentText.length === 0;
+  const isNewCommenTempty = newCommentText.length === 0;
 
   return (
     <article className={styles.post}>
@@ -118,7 +118,7 @@ export function Post({ author, publishedAt, content }: PostProps) {
         <footer>
           <button 
             type="submit" 
-            disabled={isNewCommentempty}>
+            disabled={isNewCommenTempty}>
               Publicar
           </button>
         </footer>

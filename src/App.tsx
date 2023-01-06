@@ -5,6 +5,7 @@ import { Sidebar } from './components/sidebar'
 import styles from './App.module.css'
 
 import './global.css'
+import { Footer } from './components/Footer'
 
 const posts = [
   {
@@ -59,6 +60,7 @@ export function App() {
           })}
         </main>
       </div>
+      <Footer />
     </div>
   )
 }

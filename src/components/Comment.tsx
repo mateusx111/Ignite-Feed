@@ -44,7 +44,7 @@ export function Comment({ content, onDeleteComment }:CommentProps ) {
             </button>
           </header>
 
-          <p>{content} 👏👏</p> {/*Usando a prop ja desestruturada em CONTENT)*/}
+          <p>{content}</p> {/*Usando a prop ja desestruturada em CONTENT)*/}
         </div>
 
         <footer>
