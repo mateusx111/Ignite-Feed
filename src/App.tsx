@@ -1,6 +1,7 @@
 import { Header } from './components/Header'
 import { Post } from './components/Post'
 import { Sidebar } from './components/sidebar'
+import { Avatar } from './components/Avatar'
 
 import styles from './App.module.css'
 
@@ -13,26 +14,26 @@ const posts = [
     author: {
       avatarUrl: 'https://avatars.githubusercontent.com/u/67610170?v=4',
       name: 'Mateus Souza',
-      role: 'web developer @Rocketseat',
+      role: 'Web Developer',
     },
     content: [
       { type: 'paragraph', content: 'Fala galeraa 👋' },
-      { type: 'paragraph', content:'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto éDoctorCare 🚀',},
-      { type: 'link', content: '👉 jane.design/doctorcare' },
+      { type: 'paragraph', content:'Olá, estou procurando vagas.Sou desenvolvedor e busco novas oportunidades remotas. Me chamgem no link abaixo.',},
+      { type: 'link', content: '👉 Link do meu Linkedin' },
     ],
     publishedAt: new Date('2023-01-03 14:30:00'),
   },
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/diego3g.png',
+      avatarUrl: 'https://st3.depositphotos.com/1007995/14080/i/450/depositphotos_140801800-stock-photo-dramatic-young-guitarist-looking-back.jpg',
       name: 'Diego Fernandes',
-      role: 'Educator @Rocketseat',
+      role: 'Educator',
     },
     content: [
-      { type: 'paragraph', content: 'Fala galeraa 👋' },
-      { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto éDoctorCare 🚀',},
-      { type: 'link', content: '👉 jane.design/doctorcare' },
+      { type: 'paragraph', content: 'Fala galera apresento pra vocês Pacnic At Disco' },
+      { type: 'paragraph', content: 'Pacnic At Disco é uma das melhores bandadas de rock. Venha ouvir seus maiosres sucessos',},
+      { type: 'link', content: 'Assista aqui' },
     ],
     publishedAt: new Date('2023-01-04 14:35:00'),
   },
